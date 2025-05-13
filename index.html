@@ -8,20 +8,38 @@
 </head>
 <body>
   <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+    <nav class="navbar">
+      <div class="logo">My Blog</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <h1>Welcome to My Blog</h1>
-    <p>This is a sample home page.</p>
+  <main class="home-main">
+    <section class="intro">
+      <h1>Welcome to My Blog</h1>
+      <p>Explore articles, tips, and stories on topics I love.</p>
+      <button id="readMoreBtn">Read More</button>
+    </section>
+
+    <section class="featured-posts">
+      <h2>Featured Posts</h2>
+      <div class="post-card">
+        <h3>Post Title One</h3>
+        <p>This is a short excerpt from the first post...</p>
+      </div>
+      <div class="post-card">
+        <h3>Post Title Two</h3>
+        <p>This is a short excerpt from the second post...</p>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 My Blog</p>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
   </footer>
 
   <script src="js/script.js"></script>
