@@ -146,3 +146,55 @@ footer {
   text-decoration: underline;
   color: #ffd700;
 }
+
+.contact-main {
+  padding: 3rem 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.8rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#formMsg {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
